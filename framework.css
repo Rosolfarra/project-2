@@ -1,0 +1,205 @@
+.d-flex{
+    display:flex;
+}
+.d-grid{
+    display: grid;
+}
+.d-block{
+    display: block;
+}
+@media (max-width:767px) {
+    .block-mobile{
+        display: block;
+
+    }
+    
+}
+@media (max-width:767px) {
+    .hide-mobile{
+        display:none;
+
+    }
+    
+}
+.gap-20{
+    gap: 20px;
+}
+.align-center{
+    align-items: center;
+}
+.space-between{
+    justify-content: space-between;
+}
+.bg-white{
+    background-color: white;
+}
+.bg-blue{
+    background-color: rgb(13, 57, 139);
+}
+.bg-orange{
+    background-color: orange;
+}
+.bg-green{
+    background-color: green;
+}
+.bg-red{
+    background-color: red;
+}
+.bg-ccc{
+    background-color: #ccc;
+}
+.c-black{
+    color: black;
+}
+.c-gray{
+    color: gray;
+}
+.color-white{
+    color: white;
+}
+.c-orange{
+    color: orange;
+}
+.c-blue{
+    color: blue;
+}
+.c-red{
+    color: red;
+}
+.c-gree{
+    color: green;
+}
+
+.p-15{
+    padding: 15px;
+}
+
+.p-20{
+    padding: 20px;
+}
+.pt-15{
+    padding-top: 15px;
+}
+.pb-15{
+    padding-bottom: 15px;
+}
+.pt-10{
+    padding-top: 10px;
+}
+.pb-10{
+    padding-bottom: 10px;
+}
+.pl-15{
+    padding-left: 15px;
+}
+.m-20{
+    margin: 20px;
+}
+.mt-0{
+    margin-top:0;
+}
+.mt-5{
+    margin-top: 5px;
+}
+.mt-20{
+    margin-top: 20px;
+}
+.mt-15{
+    margin-top: 15px;
+}
+.mr-10{
+margin-right: 10px;
+}
+
+.mr-left{
+    margin-left: -10px;
+}
+.mb-20{
+    margin-bottom: 20px;
+}
+.mb-50{
+    margin-bottom: 50px;
+}
+.mb-10{
+margin-bottom: 10px;
+
+}
+
+.mb-5{
+    margin-bottom: 5px;
+}
+.mb-0{
+    margin-bottom: 0;
+}
+
+.rad-6{
+    border-radius: 6px;
+}
+.rad-half{
+border-radius: 50%;
+}
+ul{
+    list-style: none;
+    padding: 0;
+}
+.fs-14{
+    font-size: 14px;
+}
+.fw-bold{
+    font-weight: bold;
+}
+
+.p-relative{
+    position: relative;
+}
+.p-absolute{
+    position: absolute;
+}
+
+.w-full{
+    width: 100%;
+}
+.height-full{
+    height: 100%;
+}
+.w-100{
+    width: 100px;
+}
+.w-fit{
+    width: fit-content;
+}
+.h-100{
+height: 100px;
+}
+.txt-c{
+    text-align: center;
+}
+.btn-shape{
+    border-radius: 10px;
+    padding: 4px 10px;
+}
+@media (max-width:767px) {
+    .txt-c-mobile{
+        text-align: center;
+
+    }
+    
+}
+
+/* start component */
+.between-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.center-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.b-none{
+    border: none;
+}
+.b-ccc{
+    border:3px solid #ccc;
+}
